@@ -51,4 +51,8 @@ Command: git push origin main<br>
 5.4 Go to the new directory: cd newDirectoryName<br>
 5.5 Make the new directory a git repository: git init<br>
 5.6 Check hidden files: ls -Force<br>
-5.7 
+5.7 Create two files - html/css
+5.8 Check Status: git status
+5.9 git add .
+5.10 git commit -m "new files added"
+5.11 
