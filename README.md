@@ -47,7 +47,7 @@ Command: git push origin main<br>
 5. init Command to work with changes made on VS Code which is used to create a new git repo from VS Code:<br><br>
 5.1 To use the vs code data in github: git init<br>
 5.2 Create folder from vs code: cd ..(cd space dot dot to get out of the current folder)<br>
-5.3 Make new directory(folder): mkdir giveDirctoryName<br>
+5.3 Make new repository/directory(folder): mkdir giveDirctoryName<br>
 5.4 Go to the new directory: cd newDirectoryName<br>
 5.5 Make the new directory a git repository: git init<br>
 5.6 Check hidden files: ls -Force<br>
