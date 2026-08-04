@@ -12,4 +12,4 @@ Author-Owner: Amit Karlekar<br><br>
 
 - VS Code Commands:<br>
 1. Cloning a repository on our local system(Laptop):<br>
-Command: git clone repositorLink<br>
+Command: git clone repositoryLink<br>
