@@ -60,4 +60,10 @@ Command: git push origin main<br>
 5.13 Check version: git remote -v<br.
 5.14 To check which branch we are on: git branch<br>
 5.15 To change the branch name: git branch -M main<br>
-5.16 Test Line Added To check whether it comes on vs code or not.
+
+==========================================================================================<br>
+
+6. Push Github changes to vs code:
+6.1 Run: git add file name - git add README.md
+6.2 Run: git commit -m "added new information"
+6.3 git pull --tags origin main
