@@ -61,3 +61,52 @@ Command: git push origin main<br>
 5.14 To check which branch we are on: git branch<br>
 5.15 To change the branch name: git branch -M main<br>
 5.16 Test Line Added To check whether it comes on vs code or not.
+
+==========================================================================================<br>
+
+6. Push Github changes to vs code:
+6.1 Run: git add file name - git add README.md
+6.2 Run: git commit -m "added new information"
+6.3 git pull --tags origin main
+
+==========================================================================================<br>
+
+7. Git Branch:
+7.1 Check branch name: git branch
+7.2  Go to another branch: git checkout branchName
+7.3 Create new branch: git checkout -b newBranchName
+7.4 Delete a branch: git branch -d featureTwo. Note: we need to move out the branch which we want to delete and open another branch.
+7.5 Push vs changes to new branch on GitHub
+7.6 Merge two branch vs code terminal: git merge main
+7.7 OR from GitHub: click pull request
+7.8 To get the changes on laptop: git pull origin main
+
+==========================================================================================<br>
+
+8. Incase of merger error/conflicts:
+8.1 git merge --abort
+8.2 git pull origin branchName --no -edit
+8.3 git push origin branchName
+
+==========================================================================================<br>
+
+9. Undoing the changes:
+9.1 Case 1 : staged changes
+
+git reset <- file name ->
+
+git reset
+
+9.2 Case 2 : commited changes (for one commit)
+git reset HEAD~1
+
+9.3 Case 3 : commited changes (for many commits)
+
+git reset <- commit hash ->
+
+git reset -- hard <- commit hash ->
+
+==========================================================================================<br>
+
+10. Fork: is a new repository that shares code and visibility settings with the original "upstream" repository. It is a rough copy.
+10.1 
