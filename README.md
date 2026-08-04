@@ -1,7 +1,7 @@
 # my-git-demo
 Repository For GitHub Learning:<br>
 ==========================================================================================<br>
-Author: Amit Karlekar<br><br>
+Author-Owner: Amit Karlekar<br><br>
 
 1. Download Git on system-laptop<br>
 2. Check git version: git --version<br>
