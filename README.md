@@ -77,13 +77,20 @@ Command: git push origin main<br>
 7.3 Create new branch: git checkout -b newBranchName
 7.4 Delete a branch: git branch -d featureTwo. Note: we need to move out the branch which we want to delete and open another branch.
 7.5 Push vs changes to new branch on GitHub
-7.6 Merge two branch vs code terminal: git merge main
+7.6 Merge two branch vs code terminal:
+- Check branch name: git branch (*secondBranch)
+- Pull latest changes from the remote feature branch: git pull origin secondBranch
+- Verify you are on the correct branch: git checkout secondBranch
+- Merge branches: git merge main or git merge secondBranch
+- Uploads the merged changes from your local feature branch to GitHub: git push -u origin secondBranch
+
 7.7 OR from GitHub: click pull request
 7.8 To get the changes on laptop: git pull origin main
 
+
 ==========================================================================================<br>
 
-8. Incase of merger error/conflicts:
+8. In case of merger error/conflicts:
 8.1 git merge --abort
 8.2 git pull origin branchName --no -edit
 8.3 git push origin branchName
