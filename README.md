@@ -76,7 +76,7 @@ Command: git push origin main<br>
 7.2  Go to another branch: git checkout branchName
 7.3 Create new branch: git checkout -b newBranchName
 7.4 Delete a branch: git branch -d featureTwo. Note: we need to move out the branch which we want to delete and open another branch.
-7.5 Push vs changes to new branch on GitHub
+7.5 Push vs changes to new branch on Git: Create new branch > git add . > git commit -m "describe your changes here" > git push -u origin your-new-branch
 7.6 Merge two branch vs code terminal:
 - Check branch name: git branch (*secondBranch)
 - Pull latest changes from the remote feature branch: git pull origin secondBranch
@@ -116,4 +116,3 @@ git reset -- hard <- commit hash ->
 ==========================================================================================<br>
 
 10. Fork: is a new repository that shares code and visibility settings with the original "upstream" repository. It is a rough copy.
-10.1 
